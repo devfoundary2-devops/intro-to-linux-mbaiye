@@ -1,0 +1,16 @@
+[Unit]
+Description=SysMon - Simple System Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/sysmon.sh -i 30
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
