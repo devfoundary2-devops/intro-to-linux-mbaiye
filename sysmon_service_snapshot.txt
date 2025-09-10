@@ -1,0 +1,22 @@
+===== 2025-09-10T09:08:59Z =====
+HOST     : ubuntu
+KERNEL   : 6.15.11-orbstack-00539-g9885ebd8e3f4
+UPTIME   : up 3 minutes
+\nCPU LOAD : 0.00, 0.00, 0.00
+\nMEMORY
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       526Mi       7.0Gi        22Mi       500Mi       7.3Gi
+Swap:          8.8Gi          0B       8.8Gi
+\nDISK (/ and top usage)
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vdb1       219G  637M  218G   1% /
+\nNETWORK (IPv4 addresses)
+eth0       192.168.139.165/24
+Default: default via 192.168.139.1 dev eth0 proto dhcp src 192.168.139.165 metric 100 
+\nTOP PROCESSES (by CPU)
+    PID COMMAND         %CPU %MEM
+    521 python3          2.8  0.3
+    520 python3          2.1  0.3
+      1 systemd          0.4  0.1
+    117 systemd-journal  0.0  0.1
+    132 systemd-udevd    0.0  0.0
